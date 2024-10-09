@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  #user-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  #user-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #hamster {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  #tap-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #stats {
+    margin-top: 20px;
+  }
+  
+  #stats p {
+    font-size: 18px;
+  }
+  
